@@ -1,4 +1,4 @@
-This code defines three functions for a simple calculator.
+  This code defines three functions for a simple calculator.
 
 The first function, clearScreen(), takes no input parameters and is used to clear the calculator screen. When this function is called, it finds the result element using its ID, and sets the value of its value attribute to an empty string, effectively clearing the screen.
 
