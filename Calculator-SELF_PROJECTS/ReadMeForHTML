@@ -1,1 +1,33 @@
+The code is an HTML file that defines the structure and behavior of a simple calculator using HTML, CSS, and JavaScript.
 
+Here is a breakdown of the code:
+
+<!DOCTYPE html>: This is the doctype declaration, which tells the web browser that the document is an HTML5 document.
+
+<html lang="en" dir="ltr">: This is the HTML root element. The lang attribute indicates the language of the document, and the dir attribute specifies the text directionality of the document.
+
+<head>: This is the head section of the HTML document, which contains metadata about the document such as the title, character encoding, and links to external files.
+
+<meta charset="utf-8">: This meta tag specifies the character encoding of the document to be UTF-8.
+
+<title>Simple Calculator using HTML, CSS and JavaScript</title>: This is the title of the document, which is displayed in the browser's title bar or tab.
+
+<link rel="stylesheet" href="styles.css">: This link tag loads an external CSS file named styles.css, which contains the styling rules for the calculator.
+
+<body>: This is the body section of the HTML document, which contains the visible content of the page.
+
+<table class="calculator">: This table element defines the layout of the calculator.
+
+<tr>: This is a table row element.
+
+<td colspan="3">: This table data element spans three columns and contains an input element of type "text" with an ID of "result". The "disabled" attribute makes the input element read-only.
+
+<td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>: This table data element contains an input element of type "button" with a value of "C". The "onclick" attribute calls the "clearScreen()" function when the button is clicked, and the "id" attribute specifies the ID of the button.
+
+The remaining table rows and data cells contain input elements of type "button" with different values and "onclick" attributes that call the "display()" function when the buttons are clicked, passing in the corresponding value as an argument.
+
+The final table row contains an equals button with an "onclick" attribute that calls the "calculate()" function when the button is clicked, and a multiply button with an "onclick" attribute that calls the "display()" function when the button is clicked, passing in the "*" character as an argument.
+
+<script type="text/javascript" src="script.js"></script>: This script tag loads an external JavaScript file named script.js, which contains the JavaScript code for the calculator.
+
+In summary, this code defines the HTML structure, CSS styling, and JavaScript behavior of a simple calculator that can perform basic arithmetic operations.
