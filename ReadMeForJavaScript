@@ -5,7 +5,7 @@ The first function, clearScreen(), takes no input parameters and is used to clea
 The second function, display(value), takes a single input parameter called value. This function is used to display the value of a clicked calculator button on the screen. When this function is called, it finds the result element using its ID, and appends the value parameter to the end of the value attribute of the result element. This means that every time a button is clicked, its value is added to the current value being displayed on the calculator screen.
 
 The third function, calculate(), takes no input parameters and is used to evaluate the expression entered into the calculator and return the result. When this function is called, it first finds the result element using its ID, and retrieves the value of its value attribute, which contains the mathematical expression that needs to be evaluated. The expression is then evaluated using the built-in eval() function in JavaScript, and the result is stored in the variable q. Finally, the value of the result element is set to q, which displays the result on the calculator screen.
-
+ 
 
 
 
