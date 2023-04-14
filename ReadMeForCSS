@@ -1,0 +1,19 @@
+This is a CSS code that defines the styling for a simple calculator application. Let's go through each part of the code:
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');: This imports the Orbitron font from Google Fonts and applies it to the calculator.
+
+.calculator { ... }: This is a class selector for the table element that represents the calculator. It sets the padding, border radius, height, width, margin, background color, and box shadow for the calculator.
+
+.display-box { ... }: This is a class selector for the input element that displays the calculator output. It sets the font family, background color, border, color, border radius, width, and height for the display box.
+
+#btn { ... }: This is an ID selector for the clear button on the calculator. It sets the background color for the button.
+
+input[type=button] { ... }: This is a selector for all input elements with type "button". It sets the font family, background color, color, border, width, border radius, and height for the buttons.
+
+input:active[type=button] { ... }: This is a selector for all active input elements with type "button". It sets the background color and box shadow for the buttons when they are pressed.
+
+Overall, this CSS code sets the style for a calculator with a dark background color and purple accents, using the Orbitron font.
+
+
+
+
